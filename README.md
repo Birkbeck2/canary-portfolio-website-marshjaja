@@ -2,19 +2,18 @@
 
 
 
-
-
 <a name="top"></a>
 
 <div align="center">
 
-# Aquarius Website Template
+# ![Screenshot 2024-12-03 at 15 43 03](https://github.com/user-attachments/assets/5074d260-f9be-4d1a-8ece-be026b7b0695)  <br/>Coded Website
+
  
 ####
- <br> This website template was created during my 12-week Frontend Web Development internship at Artfundi.
+ <br> This project was created as part of my coursework at Birkbeck to develop a portfolio website, applying concepts learned in the Web Development and User Experience module.
 
 
- <a href="https://github.com/Birkbeck2/canary-portfolio-website-marshjaja">
+ <a href="https://super-bassoon-2k7422r.pages.github.io/">
  </a>
  
   ## <a href="https://aquarius-template-artfundi.netlify.app/">View Deployment Link</a>
@@ -31,7 +30,7 @@
     <a href="https://github.com/Birkbeck2/canary-portfolio-website-marshjaja"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Birkbeck2/canary-portfolio-website-marshjaja">View Deployment Link</a>
+    <a href="https://super-bassoon-2k7422r.pages.github.io/">View Deployment Link</a>
     ·
     <a href="https://github.com/Birkbeck2/canary-portfolio-website-marshjaja/issues">Report Bug</a>
     ·
@@ -161,4 +160,10 @@ Copyright © 2024 Marcia Mijnhijmer ([@marshjaja](https://github.com/marshjaja))
 <p align="center">(<a href="#top">back to top</a>)</p>
 
 ---
+
+
+
+
+
+
 
