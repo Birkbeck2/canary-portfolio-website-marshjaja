@@ -13,7 +13,7 @@ body {
 	line-height: 1.5;
 	font-family: "Red Hat Display", sans-serif;
 	font-weight: 500;
-	background-color: #0f0f0f;
+	background-color: var(--background-color);
 }
 
 img,
@@ -26,13 +26,35 @@ picture {
 
 /* === CSS RESET END === */
 
+/* === SKIP TO MAIN CONTENT START === */
+.skip-link {
+	background: var(--background-color);
+	padding: 0.5rem 1.5rem;
+	border-radius: 0 0 0.25rem 0.25rem;
+	position: absolute;
+	left: 0.5rem;
+	transform: translateY(-120%);
+	transition: transform 0.3s ease-in-out;
+	color: var(--text-color);
+}
+
+.skip-link:focus {
+	transform: translateY(0);
+}
+
+/* === SKIP TO MAIN CONTENT START === */
+:root {
+	--text-color: #ffffff;
+	--background-color: #0f0f0f;
+	--primary-color: #8e44ad;
+}
 /* === NAVBAR/HEADER STYLES START === */
 .navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 40px;
-	color: white;
+	padding: 0.625rem 2.5rem;
+	color: var(--text-color);
 }
 
 /* Logo svg */
@@ -43,17 +65,17 @@ picture {
 /* Navigation Links */
 .nav-links {
 	display: flex;
-	gap: 40px;
+	gap: 2.5rem;
 	list-style: none;
 }
 
 .nav-links a {
 	text-decoration: none;
-	color: white;
+	color: var(--text-color);
 	font-size: 1.25rem;
 }
 
 .nav-links a:hover {
-	color: #8e44ad;
+	color: var(--primary-color);
 }
 /* === NAVBAR/HEADER STYLES END === */
