@@ -14,6 +14,7 @@ body {
 	font-family: "Red Hat Display", sans-serif;
 	font-weight: 500;
 	background-color: var(--background-color);
+	color: var(--text-color);
 }
 
 img,
@@ -42,12 +43,17 @@ picture {
 	transform: translateY(0);
 }
 
-/* === SKIP TO MAIN CONTENT START === */
+/* === SKIP TO MAIN CONTENT END === */
 :root {
 	--text-color: #ffffff;
 	--background-color: #0f0f0f;
 	--primary-color: #8e44ad;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
 /* === NAVBAR/HEADER STYLES START === */
 .navbar {
 	display: flex;
@@ -55,6 +61,7 @@ picture {
 	align-items: center;
 	padding: 0.625rem 2.5rem;
 	color: var(--text-color);
+	font-size: 1.25rem;
 }
 
 /* Logo svg */
@@ -72,10 +79,17 @@ picture {
 .nav-links a {
 	text-decoration: none;
 	color: var(--text-color);
-	font-size: 1.25rem;
+	/* font-size: 1.25rem; */
 }
 
 .nav-links a:hover {
 	color: var(--primary-color);
 }
 /* === NAVBAR/HEADER STYLES END === */
+
+/* === MAIN SECTION STYLES START === */
+#main-content {
+	width: 100%;
+	height: 100vh;
+	padding: 2.5rem;
+}
