@@ -44,6 +44,8 @@ picture {
 }
 
 /* === SKIP TO MAIN CONTENT END === */
+
+/* === GENERAL STYLES START === */
 :root {
 	--text-color: #ffffff;
 	--background-color: #0f0f0f;
@@ -54,49 +56,67 @@ html {
 	scroll-behavior: smooth;
 }
 
-/* === NAVBAR/HEADER STYLES START === */
+.main-container {
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+/* === GENERAL STYLES END === */
+
+/* === HEADER/NAV STYLES START === */
 .navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0.625rem 2.5rem;
-	color: var(--text-color);
-	font-size: 1.25rem;
+	background-color: #0f0f0f;
+	padding: 1rem 0;
+	margin-bottom: 2rem;
 }
 
-/* Logo svg */
-.logo {
-	width: 12rem;
+.logo img {
+	width: 10rem;
 }
 
-/* Navigation Links */
+.navbar nav {
+	display: flex;
+}
+
 .nav-links {
 	display: flex;
-	gap: 2.5rem;
+	gap: 1.5rem;
 	list-style: none;
 }
 
 .nav-links a {
 	text-decoration: none;
-	color: var(--text-color);
-	/* font-size: 1.25rem; */
+	color: whitesmoke;
+	font-size: 1.25rem;
+	font-weight: 700;
 }
 
 .nav-links a:hover {
-	color: var(--primary-color);
+	color: #8e44ad;
 }
-/* === NAVBAR/HEADER STYLES END === */
 
-/* === MAIN SECTION STYLES START === */
-#main-content {
-	width: 100%;
-	height: 100vh;
-	padding: 2.5rem;
+@media (max-width: 768px) {
+	.nav-links {
+		flex-direction: column;
+		margin-top: 1rem;
+	}
+
+	.logo img {
+		width: 7rem;
+	}
 }
-/* === MAIN SECTION STYLES END === */
+/* === HEADER/NAV STYLES START === */
 
-/* === GALLERY GRID STYLES START === */
+/* === GALLERY STYLES START === */
 .gallery {
+	position: relative;
+	z-index: 1;
+	padding: 20px;
+	background-color: var(--background-color);
 	display: grid;
 	height: 100%;
 	grid-template-rows: repeat(8, 1fr);
@@ -104,8 +124,20 @@ html {
 	gap: 20px;
 }
 
+.gallery::before {
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 60px;
+	right: -10px;
+	bottom: 50px;
+	background-color: #8e44ad;
+	border-radius: 15px;
+	z-index: -1;
+}
 .gallery-item {
-	border: 0.5rem solid var(--text-color);
+	border-radius: 1rem;
+	border: 0.125rem solid var(--text-color);
 	color: var(--background-color);
 	font-weight: 700;
 	display: flex;
@@ -152,6 +184,14 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+	.nav-links {
+		flex-direction: column;
+		margin-top: 1rem;
+	}
+
+	.logo img {
+		width: 7rem;
+	}
 	.gallery {
 		grid-template-columns: 1fr;
 		grid-auto-rows: 300px;
