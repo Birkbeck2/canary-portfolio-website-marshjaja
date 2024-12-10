@@ -1,0 +1,135 @@
+/* === FORM STYLES START === */
+
+.contact-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: 100vh; */
+}
+
+.contact-container {
+	display: flex;
+	/* flex-direction: row; */
+	gap: 50px;
+	background-color: #0f0f0f;
+	/* padding: 2rem;s */
+	border-radius: 8px;
+	/* max-width: 1280px; */
+	width: 100%;
+}
+
+/* LEFT SIDE OF FORM  START*/
+.contact-leftside {
+	flex: 1;
+	background-color: #8e44ad;
+	padding: 2rem;
+	border-radius: 8px;
+	color: #ffffff;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+}
+
+.circle {
+	position: absolute;
+	top: 30%;
+	right: 15%;
+	background-color: #d9d9d9;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.circle2 {
+	position: absolute;
+	top: 18%;
+	right: 10%;
+	background-color: #bbbbbb;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.contact-leftside h2,
+.contact-leftside p {
+	position: relative;
+	z-index: 3;
+}
+
+.contact-leftside h2 {
+	font-family: "DM Serif Display", sans-serif;
+	display: flex;
+	font-size: 3rem;
+	/* justify-content: start;
+	align-items: left;
+	text-align: left; */
+}
+
+.contact-leftside p {
+	color: #0f0f0f;
+	font-style: italic;
+}
+/* RIGHT SIDE OF FORM START */
+.contact-form {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.contact-form label {
+	font-size: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0.75rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+	color: #7e7e7e;
+	font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+	outline: 3px solid #bbbbbb;
+	border-color: #8e44ad;
+}
+
+.contact-form button {
+	padding: 0.75rem;
+	/* background-color: #bbbbbb;
+	background-color: #d9d9d9; */
+	background-color: #8e44ad;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.contact-form button:hover {
+	background-color: #722d8b;
+}
+
+@media (max-width: 768px) {
+	.contact-container {
+		flex-direction: column;
+	}
+}
+@media (max-width: 480px) {
+	.circle,
+	.circle2 {
+		display: none;
+	}
+}
+
+/* === FORM STYLES END === */

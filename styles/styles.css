@@ -70,8 +70,8 @@ html {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #0f0f0f;
-	padding: 1rem 0;
-	margin-bottom: 2rem;
+	/* padding: 1rem 0; */
+	/* margin-bottom: 2rem; */
 }
 
 .logo img {
@@ -162,48 +162,61 @@ html {
 	}
 } */
 
+.hero-header {
+	font-size: 4rem;
+	font-weight: 200;
+	font-family: "DM Serif Display", sans-serif;
+}
 .page-header {
 	font-size: 4rem;
 	font-weight: 200;
 	font-family: "DM Serif Display", sans-serif;
+	text-align: center;
+	padding: 2rem;
+}
+.header-dot {
+	color: #8e44ad;
 }
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
-	height: 100vh;
+	padding-top: 4rem;
+	height: auto;
 	justify-items: start;
 	align-items: start;
 }
 
-.flex-item {
+.hero-item {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: left;
-	padding: 10px;
+	/* justify-content: end;
+	align-items: flex-start;
+	text-align: left; */
 }
-.flex-item.image {
+.hero-item.image {
 	display: flex;
+	flex-direction: row;
 	background: var(--primary-color);
 	border-radius: 0.75rem;
-	justify-content: flex-start;
 	align-items: flex-end;
 	max-height: 100%;
-	/* position: relative; */
 	margin: 0;
 }
 
-.flex-item img {
+.hero-item img {
 	max-width: 60%;
-	height: auto;
-	object-fit: contain;
-	margin: 0;
+	/* height: auto; */
+	/* object-fit: contain; */
+	/* margin: 0; */
 }
 
 @media (max-width: 768px) {
 	.grid-container {
 		grid-template-columns: 1fr;
 	}
+}
+
+footer {
+	margin-top: 5rem;
 }
