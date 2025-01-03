@@ -216,7 +216,47 @@ html {
 		grid-template-columns: 1fr;
 	}
 }
-
 footer {
 	margin-top: 5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer ul {
+	justify-content: center;
+	list-style: none;
+	display: flex;
+}
+
+footer ul li {
+	padding: 0.5rem;
+}
+
+svg {
+	width: 4rem;
+	color: #8e44ad;
+	transition: transform 0.3s ease, fill 0.3s ease;
+	transform: rotate(-45deg) scale(1);
+}
+
+svg:hover {
+	transform: rotate(0) scale(1.1);
+	fill: #bbbbbb;
+}
+
+svg:focus {
+	transform: rotate(0) scale(1.1);
+	fill: #bbbbbb;
+}
+@media (max-width: 768px) {
+	footer {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer ul li {
+		padding: 0.5rem;
+	}
 }

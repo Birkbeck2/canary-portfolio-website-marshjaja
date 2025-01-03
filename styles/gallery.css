@@ -11,6 +11,17 @@
 	grid-template-rows: repeat(3, 1fr);
 	grid-template-columns: repeat(5, 1fr);
 	gap: 20px;
+	animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 .gallery::before {
