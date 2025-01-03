@@ -59,6 +59,7 @@ html {
 .main-container {
 	max-width: 1400px;
 	width: 100%;
+	/* display: flex; */
 	margin: 0 auto;
 	padding: 0 2rem;
 }
@@ -174,6 +175,107 @@ html {
 	text-align: center;
 	padding: 2rem;
 }
+.landing-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	position: relative;
+}
+
+.landing-text {
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: left;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	color: #ffffff;
+}
+
+.landing-header {
+	font-size: 8rem;
+	font-weight: 700;
+
+	font-family: "DM Serif Display", sans-serif;
+	text-align: center;
+	padding: 2rem;
+}
+
+@media (max-width: 480px) {
+	.landing-text {
+		font-size: 1.5rem;
+		top: 30%;
+		left: 5%;
+	}
+
+	.landing-header {
+		text-align: left;
+		font-size: 4rem;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+	.landing-text {
+		font-size: 2rem;
+		top: 25%;
+		left: 8%;
+	}
+
+	.landing-header {
+		/* text-align: left; */
+		font-size: 4rem;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	.landing-text {
+		font-size: 2.5rem;
+		top: 25%;
+		left: 5%;
+	}
+
+	.landing-header {
+		font-size: 5rem;
+		/* text-align: left; */
+		text-wrap: nowrap;
+	}
+}
+
+@media (min-width: 1441px) {
+	.landing-text {
+		font-size: 4rem;
+		top: 30%;
+		left: 12%;
+	}
+
+	.landing-header {
+		font-size: 8rem;
+	}
+}
+
+.header-dot {
+	color: #ffffff;
+}
+
+.enter-link {
+	margin-top: 2rem;
+	font-size: 1.5rem;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border: 2px solid #8e44ad;
+	border-radius: 5px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.enter-link:hover {
+	background-color: #8e44ad;
+	color: #000000;
+}
+
 .header-dot {
 	color: #8e44ad;
 }
@@ -216,6 +318,7 @@ html {
 		grid-template-columns: 1fr;
 	}
 }
+
 footer {
 	margin-top: 5rem;
 	display: flex;
