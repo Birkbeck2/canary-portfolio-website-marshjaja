@@ -1,5 +1,4 @@
 /* === CSS RESET START === */
-
 *,
 *::before,
 *::after {
@@ -165,7 +164,6 @@ html {
 .landing-header {
 	font-size: 8rem;
 	font-weight: 700;
-
 	font-family: "DM Serif Display", sans-serif;
 	text-align: center;
 	padding: 2rem;
@@ -177,7 +175,6 @@ html {
 		top: 30%;
 		left: 5%;
 	}
-
 	.landing-header {
 		text-align: left;
 		font-size: 4rem;
@@ -188,7 +185,6 @@ html {
 		flex-direction: column;
 		margin-top: 1rem;
 	}
-
 	.logo img {
 		width: 7rem;
 	}
