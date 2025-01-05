@@ -87,6 +87,9 @@
 	object-fit: cover;
 	object-position: top center;
 }
+.gallery-item video {
+	border-radius: 0.75rem;
+}
 
 @media only screen and (max-width: 768px) {
 	.gallery {
