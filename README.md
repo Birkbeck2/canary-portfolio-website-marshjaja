@@ -16,7 +16,7 @@
  <a href="https://super-bassoon-2k7422r.pages.github.io/">
  </a>
  
-  ## <a href="https://aquarius-template-artfundi.netlify.app/">View Deployment Link</a>
+  ## <a href="https://super-bassoon-2k7422r.pages.github.io/">View Deployment Link</a>
 
 
 ![GitHub contributors](https://img.shields.io/github/contributors/Birkbeck2/canary-portfolio-website-marshjaja?style=for-the-badge&logoColor=white)
@@ -27,10 +27,9 @@
 <img src="https://img.shields.io/github/commit-activity/m/Birkbeck2/canary-portfolio-website-marshjaja?style=for-the-badge&color=efc8d4" alt="GitHub commit activity" />
 <img src="https://img.shields.io/github/languages/top/Birkbeck2/canary-portfolio-website-marshjaja?style=for-the-badge&color=efc8d4" alt="GitHub top language" />
 
-  
-    
+
   </p>
-  <a href="https://super-bassoon-2k7422r.pages.github.io/">View Deployment Link</a>
+
 </div>
 
 ---
