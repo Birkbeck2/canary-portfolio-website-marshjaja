@@ -104,10 +104,6 @@ html {
 	background-color: var(--primary-color);
 	transition: width 0.3s ease-in-out;
 }
-
-.nav-links a:hover {
-	/* color: #8e44ad; */
-}
 .nav-links a:focus {
 	color: var(--primary-color);
 }
@@ -204,7 +200,6 @@ html {
 	}
 
 	.landing-header {
-		/* text-align: left; */
 		font-size: 4rem;
 	}
 }
@@ -218,7 +213,6 @@ html {
 
 	.landing-header {
 		font-size: 5rem;
-		/* text-align: left; */
 		text-wrap: nowrap;
 	}
 }
@@ -262,11 +256,6 @@ html {
 	justify-items: center;
 	align-items: start;
 }
-
-/* .hero-item {
-	display: flex;
-	flex-direction: column;
-} */
 .hero-item.image {
 	background: var(--primary-color);
 	border-radius: 1rem;
@@ -338,7 +327,7 @@ footer ul li {
 	}
 }
 
-/* PARALLAX STYLES */
+/* ABOUT PAGE PARALLAX STYLES */
 .parallax {
 	height: 500px;
 	background: url("/images/portrait-me.webp") no-repeat center center/contain;
@@ -348,6 +337,21 @@ footer ul li {
 .content {
 	padding: 50px;
 	text-align: center;
+}
+
+h2 {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+}
+
+h2 a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+.about-cta {
+	color: var(--text-color);
+	text-decoration: var(--primary-color) underline;
 }
 /*ADDING REDUCED MOTION */
 @media (prefers-reduced-motion: reduce) {

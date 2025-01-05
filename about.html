@@ -57,26 +57,55 @@
 			</header>
 			<!-- MAIN SECTION -->
 			<main id="main-content">
-				<h1 class="page-header">About<span class="header-dot">.</span></h1>
-				<section>
-					<div class="parallax"></div>
-					<div class="content">
-						<h1>Welcome</h1>
-						<p>So happy you are here!</p>
-					</div>
-					<div class="parallax"></div>
-					<div class="content">
-						<h2>About</h2>
-						<p>
-							This site is a reflection of the skills and knowledge I’ve gained
-							throughout this module.
-						</p>
-					</div>
-					<div class="parallax"></div>
-					<div class="content">
-						<h2>Get in Touch</h2>
-						<a href="contact.html">Get in touch</a>
-					</div>
+				<h1 id="about-header" class="page-header">
+					About<span class="header-dot">.</span>
+				</h1>
+				<div id="welcome-section" class="parallax"></div>
+
+				<!-- WELCOME SECTION -->
+				<section class="content">
+					<h2>
+						Welcome
+						<a href="#about" aria-label="Go to About section">
+							<i class="fa fa-angle-double-down"></i>
+						</a>
+					</h2>
+					<p>So happy you are here!</p>
+				</section>
+
+				<div id="about" class="parallax"></div>
+
+				<!-- ABOUT SECTION -->
+				<section class="content">
+					<h2>
+						About
+						<a href="#contact" aria-label="Go to Contact section">
+							<i class="fa fa-angle-double-down"></i>
+						</a>
+					</h2>
+					<p>
+						This site reflects the skills I’ve developed so far, the knowledge I
+						brought with me, and the lessons I’ve gained<br />
+						and built upon throughout the Web Development and User Experience
+						module.
+					</p>
+				</section>
+
+				<div id="contact" class="parallax"></div>
+
+				<!-- GET IN TOUCH  -->
+				<section class="content">
+					<h2>
+						Get in<a
+							class="about-cta"
+							href="/contact.html"
+							aria-label="Go back to Contact page"
+							>touch here</a
+						>
+						<a href="#about-header" aria-label="Go back to Welcome section">
+							<i class="fa fa-angle-double-up"></i>
+						</a>
+					</h2>
 				</section>
 			</main>
 			<!-- FOOTER SECTION -->
