@@ -49,6 +49,7 @@ picture {
 	--text-color: #ffffff;
 	--background-color: #0f0f0f;
 	--primary-color: #8e44ad;
+	--accent-color: #bbbbbb;
 }
 
 html {
@@ -68,7 +69,7 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #0f0f0f;
+	background-color: var(--background-color);
 }
 
 .logo img {
@@ -108,7 +109,7 @@ html {
 	/* color: #8e44ad; */
 }
 .nav-links a:focus {
-	color: #8e44ad;
+	color: var(--primary-color);
 }
 .nav-links a:hover::before {
 	width: 100%;
@@ -159,7 +160,7 @@ html {
 	position: absolute;
 	top: 30%;
 	left: 10%;
-	color: #ffffff;
+	color: var(--text-color);
 }
 
 .landing-header {
@@ -236,21 +237,21 @@ html {
 .enter-link {
 	margin-top: 2rem;
 	font-size: 1.5rem;
-	color: #ffffff;
+	color: var(--text-color);
 	text-decoration: none;
 	padding: 0.5rem 1rem;
-	border: 2px solid #8e44ad;
+	border: 2px solid var(--primary-color);
 	border-radius: 5px;
 	transition: background-color 0.3s, color 0.3s;
 }
 
 .enter-link:hover {
-	background-color: #8e44ad;
-	color: #000000;
+	background-color: var(--primary-color);
+	color: var(--background-color);
 }
 
 .header-dot {
-	color: #8e44ad;
+	color: var(--primary-color);
 }
 .grid-container {
 	display: grid;
@@ -258,32 +259,34 @@ html {
 	gap: 20px;
 	padding-top: 4rem;
 	height: auto;
-	justify-items: start;
+	justify-items: center;
 	align-items: start;
 }
 
-.hero-item {
+/* .hero-item {
 	display: flex;
 	flex-direction: column;
-}
+} */
 .hero-item.image {
-	display: flex;
-	flex-direction: row;
 	background: var(--primary-color);
-	border-radius: 0.75rem;
+	border-radius: 1rem;
 	align-items: flex-end;
 	max-height: 100%;
 	margin: 0;
 }
 
 .hero-item img {
-	max-width: 60%;
+	max-width: 80%;
 	height: auto;
 }
 
 @media (max-width: 768px) {
 	.grid-container {
 		grid-template-columns: 1fr;
+	}
+	.hero-item img {
+		max-width: 60%;
+		height: auto;
 	}
 }
 
@@ -308,7 +311,7 @@ footer ul li {
 .icon {
 	width: 3rem;
 	height: 3rem;
-	color: #8e44ad;
+	color: var(--primary-color);
 	transition: transform 0.3s ease, fill 0.3s ease;
 	transform: rotate(-45deg) scale(1);
 	font-size: 3rem;
@@ -332,5 +335,24 @@ footer ul li {
 
 	footer ul li {
 		padding-bottom: 1.5rem;
+	}
+}
+
+/* PARALLAX STYLES */
+.parallax {
+	height: 500px;
+	background: url("/images/portrait-me.webp") no-repeat center center/contain;
+	background-attachment: fixed;
+}
+
+.content {
+	padding: 50px;
+	text-align: center;
+}
+/*ADDING REDUCED MOTION */
+@media (prefers-reduced-motion: reduce) {
+	.parallax {
+		/* DISABLING THE FIXED BACKGROUND */
+		background-attachment: scroll;
 	}
 }
