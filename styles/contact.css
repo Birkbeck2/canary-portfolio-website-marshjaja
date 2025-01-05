@@ -1,4 +1,5 @@
 /* === FORM STYLES START === */
+
 .contact-wrapper {
 	display: flex;
 	justify-content: center;
@@ -93,14 +94,14 @@
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	background-color: #f0f0f0;
-	color: #7e7e7e;
+	color: #1e1e1e;
 	font-size: 1rem;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
 	outline: 3px solid #bbbbbb;
-	border-color: #8e44ad;
+	/* border-color: #8e44ad; */
 }
 
 .contact-form button {
