@@ -26,16 +26,11 @@
 <img src="https://img.shields.io/github/license/Birkbeck2/canary-portfolio-website-marshjaja?style=for-the-badge&color=efc8d4" alt="GitHub license" />
 <img src="https://img.shields.io/github/commit-activity/m/Birkbeck2/canary-portfolio-website-marshjaja?style=for-the-badge&color=efc8d4" alt="GitHub commit activity" />
 <img src="https://img.shields.io/github/languages/top/Birkbeck2/canary-portfolio-website-marshjaja?style=for-the-badge&color=efc8d4" alt="GitHub top language" />
-<br>
-    <a href="https://github.com/Birkbeck2/canary-portfolio-website-marshjaja"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://super-bassoon-2k7422r.pages.github.io/">View Deployment Link</a>
-    ·
-    <a href="https://github.com/Birkbeck2/canary-portfolio-website-marshjaja/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Birkbeck2/canary-portfolio-website-marshjaja/issues">Request Feature</a>
+
+  
+    
   </p>
+  <a href="https://super-bassoon-2k7422r.pages.github.io/">View Deployment Link</a>
 </div>
 
 ---
@@ -48,6 +43,7 @@
   
 ![HTML5](https://img.shields.io/badge/html5-E55330?style=for-the-badge&logo=css3&logoColor=E55330&labelColor=grey)
 ![CSS3](https://img.shields.io/badge/css-216CAF?style=for-the-badge&logo=css3&logoColor=216CAF&labelColor=grey)
+![Fontawesome](https://img.shields.io/badge/fontawesome-216CAF?style=for-the-badge&logo=fontawesome3&logoColor=216CAF&labelColor=grey)
 
 
 ---
@@ -59,9 +55,6 @@
   - [Technologies Used](#technologies-used)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
-  - [Tests](#tests)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
   - [Contributors](#contributors)
   - [Acknowledgments](#acknowledgments)
   - [Contact](#contact)
@@ -71,13 +64,9 @@
 
 ---
 
-# 🗣️USER STORY
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
----
-
 # 📖DESCRIPTION
+This project was created as part of my coursework for the Web Development and User Experience module at Birkbeck University. The goal was to design and code a responsive, accessible portfolio website consisting of four pages.
+The website demonstrates skills in semantic HTML and responsive CSS, using Grid, Flexbox and Media Queries to create layouts suitable for various screen sizes (laptop, tablet, and mobile).
 
 ---
 
@@ -86,6 +75,7 @@
 ---
 
 # 🚧👷‍♀️PROJECT IMPROVEMENTS:
+Future improvements for this project could include implementing a light and dark theme using only HTML, CSS, and the :root pseudo-class to enhance user experience and accessibility. Additionally, I would want to refine the color scheme for better contrast, ensuring greater accessibility for users with visual impairments. Improvements could also foucs on enhancing the quality, scaling, and placement of images to provide a more polished and visually appealing design.
 
 
 ---
@@ -108,21 +98,20 @@ No installation is required. Simply clone the repository, navigate to the projec
 
 ---
 
-# ▶️USAGE
-
----
-
-
 
 # 📶TECHNOLOGIES USED
+This project was built using the following technologies and tools:
+
+- HTML: Semantic HTML5 was used to structure the website and to ensure accessibility.
+- CSS: External stylesheets were written to style the website, using Grid, Flexbox and Media Queries for responsive design.
+- FontAwesome: For adding icons to enhance the design and usability of the site.
+- Visual Studio Code (VS Code): The primary code editor used for development.
+- Git & GitHub: Version control and repository hosting to manage and share the project.
 
 
 <br/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>Other Tools and Libraries: <br/>
-
----
-
 
 ---
 
@@ -136,6 +125,13 @@ No installation is required. Simply clone the repository, navigate to the projec
 
 
 ## 👏 ACKNOWLEDGMENTS
+I would like to thank the following for their contributions and support in creating this project:
+
+- Birkbeck University: For providing guidance and resources through the Web Development and User Experience module.
+- Professors and Instructors: For their valuable feedback and teaching.
+- Validation Tools: WAVE, Lighthouse, and HTML validation tools for ensuring accessibility and responsiveness.
+- GitHub: For hosting this project and enabling version control.
+- Classmates and Friends: For their encouragement, feedback and helpful suggestions.
 
 
 
