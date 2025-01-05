@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta
 			name="description"
-			content="Portfolio Website Marcia Mijnhijmer About page"
+			content="Portfolio Website Marcia Mijnhijmer Home page"
 		/>
 		<!-- IMPORTED GOOGLE FONTS LINK SCRIPT -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,6 +15,8 @@
 			rel="stylesheet"
 		/>
 		<!-- FAVICON ICON -->
+		<link rel="icon" href="assets/mm-logo-2.svg" />
+		<link href="styles/styles.css" rel="stylesheet" type="text/css" />
 		<link
 			rel="icon"
 			href="assets/mm-logo-2.svg"
@@ -22,8 +24,8 @@
 			sizes="any"
 		/>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css" />
-		<title>About | Marcia Mijnhijmer</title>
-		<!-- FONTAWESOME FONTS LINK -->
+		<title>Home | Marcia Mijnhijmer</title>
+		<!-- FONTAWESOME FONTS LINK  -->
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -57,55 +59,30 @@
 			</header>
 			<!-- MAIN SECTION -->
 			<main id="main-content">
-				<h1 id="about-header" class="page-header">
-					About<span class="header-dot">.</span>
-				</h1>
-				<div id="welcome-section" class="parallax"></div>
+				<h1 class="page-header">Home<span class="header-dot">.</span></h1>
 
-				<!-- WELCOME SECTION -->
-				<section class="content">
-					<h2>
-						Welcome
-						<a href="#about" aria-label="Go to About section">
-							<i class="fa fa-angle-double-down"></i>
-						</a>
-					</h2>
-					<p>So happy you are here!</p>
-				</section>
-
-				<div id="about" class="parallax"></div>
-
-				<!-- ABOUT SECTION -->
-				<section class="content">
-					<h2>
-						About
-						<a href="#contact" aria-label="Go to Contact section">
-							<i class="fa fa-angle-double-down"></i>
-						</a>
-					</h2>
-					<p>
-						This site reflects the skills I’ve developed so far, the knowledge I
-						brought with me, and the lessons I’ve gained<br />
-						and built upon throughout the Web Development and User Experience
-						module.
-					</p>
-				</section>
-
-				<div id="contact" class="parallax"></div>
-
-				<!-- GET IN TOUCH  -->
-				<section class="content">
-					<h2>
-						Get in<a
-							class="about-cta"
-							href="/contact.html"
-							aria-label="Go back to Contact page"
-							>touch here</a
-						>
-						<a href="#about-header" aria-label="Go back to Welcome section">
-							<i class="fa fa-angle-double-up"></i>
-						</a>
-					</h2>
+				<section aria-labelledby="hero-section">
+					<div class="grid-container">
+						<div class="hero-item">
+							<p class="hero-text"><del> Footballer</del></p>
+							<p class="hero-text"><del> Snowboarder</del></p>
+							<p class="hero-text"><del> Skateboarder</del></p>
+							<p class="hero-text"><del> Hobbyist</del></p>
+							<p class="hero-text"><del> Pastry chef</del></p>
+							<p class="hero-text">Web developer</p>
+							<p class="hero-text">Software developer</p>
+							<p class="hero-text">Product engineer</p>
+						</div>
+						<div class="hero-item image">
+							<img
+								src="images/LinkedIn-color-no-bg-small.avif"
+								alt="Person holding a rainbow skateboard with a transparent background"
+								loading="lazy"
+								width="488"
+								height="732"
+							/>
+						</div>
+					</div>
 				</section>
 			</main>
 			<!-- FOOTER SECTION -->
