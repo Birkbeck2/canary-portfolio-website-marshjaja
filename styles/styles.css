@@ -224,7 +224,7 @@ footer ul li {
 	}
 }
 
-@media (min-width: 1025) {
+@media (min-width: 1025px) {
 	.landing-header {
 		font-size: 8rem;
 	}
